@@ -12,12 +12,12 @@ public class DatabaseConfig {
 		if(dataSource != null) return (DataSource) dataSource;
 		
 		dataSource = new PGSimpleDataSource();
-		dataSource.setServerNames(new String[]{"postgres"});
+		dataSource.setServerNames(new String[]{"localhost"});
         dataSource.setPortNumbers(new int[]{5432});
         dataSource.setDatabaseName("postgres");
-        dataSource.setCurrentSchema("postgres");
+        dataSource.setCurrentSchema("project1");
         dataSource.setUser("postgres");
-        dataSource.setPassword("postgres");
+        dataSource.setPassword("admin");
         
         return (DataSource) dataSource;
 	}

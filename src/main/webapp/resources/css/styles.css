@@ -1,0 +1,141 @@
+        /* General Body Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        /* Page Heading */
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Form Styles */
+        .main-form { /* Đây là class bạn thêm vào h:form */
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            max-width: 900px;
+        }
+
+        /* DataTable Styles */
+        .employee-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .employee-table th,
+        .employee-table td {
+            border: 1px solid #e0e0e0;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        .employee-table th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+
+        /* Column Specific Widths */
+        .col-code {
+            width: 10%;
+            background-color: #f9f9f9;
+        }
+
+        .col-name {
+            width: 25%;
+        }
+
+        .col-age {
+            width: 8%;
+            text-align: center;
+        }
+
+        .col-dob {
+            width: 17%;
+        }
+
+        .col-radio {
+            width: 10%;
+            text-align: center;
+        }
+
+        /* PanelGrid for Input Fields */
+        .input-panelgrid {
+            margin-top: 20px;
+            margin-left: 20px;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 15px 10px;
+            align-items: center;
+        }
+
+        .input-panelgrid label {
+            font-weight: bold;
+            color: #555;
+            padding-right: 10px;
+        }
+
+        .input-panelgrid input[type="text"] {
+            width: calc(100% - 10px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /* Command Buttons Group */
+        .button-group {
+            margin-top: 25px;
+            margin-left: 20px;
+            text-align: left;
+        }
+
+        .button-group input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-group input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        /* Specific button colors */
+        .add-button {
+            background-color: #28a745;
+        }
+        .add-button:hover {
+            background-color: #218838;
+        }
+
+        .update-button {
+            background-color: #ffc107;
+            color: #333;
+        }
+        .update-button:hover {
+            background-color: #e0a800;
+        }
+
+        .delete-button {
+            background-color: #dc3545;
+        }
+        .delete-button:hover {
+            background-color: #c82333;
+        }
